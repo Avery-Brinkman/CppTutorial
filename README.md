@@ -20,4 +20,59 @@
 
 ### Extensions
 
-## Options
+### Options
+
+## Project Setup
+
+1. Open Terminal. It should say something like `PS C:\Users\USERNAME>`.
+2. Decide a location that you want to save these files. For this, I'm doing 'Documents'. A new folder will be created at this location.
+3. Move to that location.
+
+    ```bat
+    cd .\Documents\
+    ```
+
+    You can just start typing 'Documents' and press tab to have it autocomplete. You can write out the full path, or a relative path, and you can use `..` to go back by one directory (and you can chain them together. For example, `..\..` goes back two directories).
+
+4. Clone the repository.
+
+    ```bat
+    git clone https://github.com/Avery-Brinkman/CppTutorial.git
+    ```
+
+    This will create a new folder called 'CppTutorial' wherever you ran the command, and will copy all the files and save them.
+
+5. Move to the tutorial's root folder.
+
+    ```bat
+    cd .\CppTutorial\
+    ```
+
+## Individual Setup
+
+These steps will be the same for each section of this tutorial, and will only need to be done the first time you build that section.
+
+1. Starting from the root folder (.\\CppTutorial\\), move to the subfolder (in this example I'm doing '00_HelloWorld')
+
+    ```bat
+    cd .\00_HelloWorld\
+    ```
+
+2. Make a build folder, and move to it. This is where our Solution file will go, and where the binaries will go when we compile.
+
+    ```bat
+    mkdir build
+    cd .\build\
+    ```
+
+3. Run CMake.
+
+    ```bat
+    cmake ..
+    ```
+
+4. Open '00_HelloWorld.sln'. You can can just click it in file explorer, run `explorer .` to open the file explorer here and then click it, or run `Start-Process .\00_HelloWorld.sln` to open it from the command line. It doesn't matter though.
+
+5. In the Solution Explorer of Visual Studio, right click the Solution (very top) and click 'Build Solution' (or use `Ctrl+Shift+B`)
+6. Right click the '00_HelloWorld' Project, and select 'Set as Startup Project'.
+7. Click the Green Play button that says 'Local Windows Debugger' (or just press `F5`).
