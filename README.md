@@ -1,5 +1,16 @@
 # CppTutorial
 
+## Table of Contents
+
+- [Tools Needed](#tools-needed)
+- [Setup](#setup)
+  - [Git Setup](#git-setup)
+  - [CMake Setup](#cmake-setup)
+  - [Visual Studio Setup](#visual-studio-setup)
+- [Tutorial Setup](#tutorial-setup)
+  - [Build the Tutorial](#build-the-tutorial)
+- [Run a Project](#run-a-project)
+
 ## Tools Needed
 
 - [Git](https://git-scm.com/downloads)\
@@ -16,25 +27,27 @@
 - [Terminal](https://apps.microsoft.com/detail/9N0DX20HK701?hl=en-US&gl=US) (comes with Windows 11)\
     You can just use the normal PowerShell that comes with Windows, but the Terminal app is nicer and has some cooler features and QoL upgrades.
 
-## Git Setup
+## Setup
+
+### Git Setup
 
 - If you want, check add 'Git Bash Profile to Windows Terminal.' This will let you open a new Git Bash tab in Windows Terminal. This isn't necesary though, as you can still run Git commands in a normal PowerShell, but it will let you use tab to autocomplete git commands.
 
 - When it asks if you want to adjust the name of the initial branch in new repositories, choose override (instead of letting git decide) and leave the name as 'main'. The primary branch for repositories used to be called 'master,' but has changed to 'main.' The default is still left as 'master' for backwards compatibility purposes.
 
-## CMake Setup
+### CMake Setup
 
 - Make sure you select the option to add CMake to path.
 
-## Visual Studio Setup
+### Visual Studio Setup
 
-### Installation
+#### Installation
 
-### Extensions
+#### Extensions
 
-### Options
+#### Options
 
-## Project Setup
+## Tutorial Setup
 
 1. Open Terminal. It should say something like `PS C:\Users\USERNAME>`.
 2. Decide a location that you want to save these files. For this, I'm doing 'Documents'. A new folder will be created at this location.
@@ -60,7 +73,7 @@
     cd .\CppTutorial\
     ```
 
-## Build the Project
+### Build the Tutorial
 
 These steps will only need to be done the first time you build. After that we can just use Visual Studio.
 
