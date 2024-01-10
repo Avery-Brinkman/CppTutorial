@@ -48,16 +48,11 @@
     cd .\CppTutorial\
     ```
 
-## Individual Setup
+## Build the Project
 
-These steps will be the same for each section of this tutorial, and will only need to be done the first time you build that section.
+These steps will only need to be done the first time you build. After that we can just use Visual Studio.
 
-1. Starting from the root folder (.\\CppTutorial\\), move to the subfolder (in this example I'm doing '00_HelloWorld')
-
-    ```bat
-    cd .\00_HelloWorld\
-    ```
-
+1. Start in the root folder (CppTutorial).
 2. Make a build folder, and move to it. This is where our Solution file will go, and where the binaries will go when we compile.
 
     ```bat
@@ -71,8 +66,24 @@ These steps will be the same for each section of this tutorial, and will only ne
     cmake ..
     ```
 
-4. Open '00_HelloWorld.sln'. You can can just click it in file explorer, run `explorer .` to open the file explorer here and then click it, or run `Start-Process .\00_HelloWorld.sln` to open it from the command line. It doesn't matter though.
+4. Open 'CppTutorial.sln'. You can can just click it in file explorer, run `explorer .` to open the file explorer here and then click it, or run `Start-Process .\CppTutorial.sln` to open it from the command line. It doesn't matter though.
 
-5. In the Solution Explorer of Visual Studio, right click the Solution (very top) and click 'Build Solution' (or use `Ctrl+Shift+B`)
-6. Right click the '00_HelloWorld' Project, and select 'Set as Startup Project'.
-7. Click the Green Play button that says 'Local Windows Debugger' (or just press `F5`).
+    ![Solution File](/images/SolutionFile.png)
+
+5. In the Solution Explorer of Visual Studio, right click the Solution (very top).
+
+    ![Solution](/images/Solution.png)
+
+    Click 'Build Solution' (or use `Ctrl+Shift+B`)
+
+    ![Build Solution](/images/BuildSolution.png)
+
+### Run a Project
+
+1. Right click the Project you want to run (00_HelloWorld, for example), and select 'Set as Startup Project'.
+
+    ![Set as Startup Project](/images/SetAsStartup.png)
+
+2. Click the Green Play button that says 'Local Windows Debugger' (or just press `F5`).
+
+    ![Run](/images/Run.png)
