@@ -41,11 +41,7 @@
 
 ### Visual Studio Setup
 
-#### Installation
-
-#### Extensions
-
-#### Options
+- Select "Desktop development with C++"
 
 ## Tutorial Setup
 
@@ -93,22 +89,22 @@ These steps will only need to be done the first time you build. After that we ca
 
 4. Open 'CppTutorial.sln'. You can can just click it in file explorer, run `explorer .` to open the file explorer here and then click it, or run `Start-Process .\CppTutorial.sln` to open it from the command line. It doesn't matter though.
 
-    ![Solution File](/images/SolutionFile.png)
+    ![Solution File](/images/README/SolutionFile.png)
 
 5. In the Solution Explorer of Visual Studio, right click the Solution (very top).
 
-    ![Solution](/images/Solution.png)
+    ![Solution](/images/README/Solution.png)
 
     Click 'Build Solution' (or use `Ctrl+Shift+B`)
 
-    ![Build Solution](/images/BuildSolution.png)
+    ![Build Solution](/images/README/BuildSolution.png)
 
 ### Run a Project
 
 1. Right click the Project you want to run (00_HelloWorld, for example), and select 'Set as Startup Project'.
 
-    ![Set as Startup Project](/images/SetAsStartup.png)
+    ![Set as Startup Project](/images/README/SetAsStartup.png)
 
 2. Click the Green Play button that says 'Local Windows Debugger' (or just press `F5`).
 
-    ![Run](/images/Run.png)
+    ![Run](/images/README/Run.png)
